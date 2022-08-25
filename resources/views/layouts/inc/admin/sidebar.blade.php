@@ -36,6 +36,12 @@
             </div>
           </li>
 
+          <li class="nav-item">
+            <a class="nav-link" href="{{ url('admin/slider') }}">
+              <i class="mdi mdi-view-carousel menu-icon"></i>
+              <span class="menu-title">Home Slider</span>
+            </a>
+          </li> 
               <!-- Produse fara dropdown -->
                     <!-- <li class="nav-item">
                                 <a class="nav-link" href="{{ url('admin/products') }}">
@@ -57,12 +63,7 @@
               <span class="menu-title">Charts</span>
             </a>
           </li> -->
-          <!-- <li class="nav-item">
-            <a class="nav-link" href="pages/tables/basic-table.html">
-              <i class="mdi mdi-grid-large menu-icon"></i>
-              <span class="menu-title">Tables</span>
-            </a>
-          </li> -->
+         
           <!-- <li class="nav-item">
             <a class="nav-link" href="pages/icons/mdi.html">
               <i class="mdi mdi-emoticon menu-icon"></i>

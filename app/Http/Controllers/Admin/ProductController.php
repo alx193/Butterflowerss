@@ -74,7 +74,7 @@ class ProductController extends Controller
             }
         }
    
-        return redirect('/admin/products')->with('message', 'Product Added Succesfully');
+        return redirect('admin/products')->with('message', 'Product Added Succesfully');
     }
 
 
