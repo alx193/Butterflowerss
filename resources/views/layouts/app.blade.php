@@ -9,6 +9,10 @@
 
     <title>@yield('title')</title>
 
+    <meta name="description" content="@yield('meta_description')">
+    <meta name="description" content="@yield('meta_keyword')">
+    <meta name="description" content="">
+
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
@@ -17,7 +21,7 @@
 
     <!-- Styles -->
     <link href="{{ asset('assets/css/bootstrap.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('assets/css/custom.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/css/custom.min.css') }}" rel="stylesheet"> 
 
 </head>
 <body>
