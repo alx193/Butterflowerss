@@ -9,7 +9,7 @@
                         <form role="search">
                             <div class="input-group">
                                 <input type="search" placeholder="Search your product" class="form-control" />
-                                <button class="btn bg-white" type="submit">
+                                <button class="btn bg-yellow" type="submit">
                                     <i class="fa fa-search"></i>
                                 </button>
                             </div>
@@ -73,7 +73,7 @@
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
                 <a class="navbar-brand d-block d-sm-block d-md-none d-lg-none" href="#">
-                    Funda Ecom
+                    Floraria Butterflowerss
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -81,10 +81,10 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Home</a>
+                            <a class="nav-link" href="{{ url('/') }}">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">All Categories</a>
+                            <a class="nav-link" href="{{ url('/collections') }}">All Categories</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">New Arrivals</a>
