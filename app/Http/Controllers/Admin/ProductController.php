@@ -131,11 +131,13 @@ class ProductController extends Controller
                 }
             }
        
-            return redirect('/admin/products')->with('message', 'Product Updated Succesfully');
+            // dd ('product updated🫡');
+            return redirect('admin/products')->with('message', 'Product Updated Succesfully');
 
         }
         else
         {
+            //dd ('product not found 🤔');
             return redirect('admin/products')->with('message','No such Product is found');
         }
     }
