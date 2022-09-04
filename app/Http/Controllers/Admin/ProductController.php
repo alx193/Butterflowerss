@@ -111,7 +111,7 @@ class ProductController extends Controller
                 'status'=> $request->status == true ? '1':'0',
                 'meta_title'=> $validatedData['meta_title'],
                 'meta_keyword'=> $validatedData['meta_keyword'],
-                'meta_description'=> $validatedData['meta_description'],
+                'meta_description'=> $validatedData['meta_description']
             ]);
 
             if($request->hasFile('image')){
@@ -124,7 +124,7 @@ class ProductController extends Controller
                     $imageFile->move($uploadPath,$filename);
                     $finalImagePathName = $uploadPath.$filename;
     
-                    $product ->productImages()->create([
+                    $product->productImages()->create([
                         'product_id' => $product->id,
                         'image' => $finalImagePathName,
                     ]);

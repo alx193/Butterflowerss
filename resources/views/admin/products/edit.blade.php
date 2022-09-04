@@ -59,11 +59,10 @@
                                             </div>
                                             <div class="mb3">
                                                 <label>Product Name</label>
-                                                <input type="text" name="name" value="{{ $product->name }}" class="form-control"></input>
-                                            </div>
+                                                <input type="text" name="name" value="{{ $product->name }}" class="form-control">                                            </div>
                                             <div class="mb3">
                                                 <label>Product Slug</label>
-                                                <input type="text" name="slug" value="{{ $product->slug }}" class="form-control"></input>
+                                                <input type="text" name="slug" value="{{ $product->slug }}" class="form-control">
                                             </div>
                                             <div class="mb3">
                                                 <label>Small Description (500 Words)</label>
