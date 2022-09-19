@@ -1,8 +1,8 @@
 <div>
     <div class="row">
         <div class="col-md-3">
-            <div class="card">
-                        <div class="card-header"><h4>Price</h4></div>
+            {{-- <div class="card">
+                        <div class="card-header" ><h4>Price</h4></div>
                             <div class="card-body">
                                 <label class="d-block">
                                     <input type="radio" name="priceSort" wire:model="priceInput" value="high-to-low" />High to Low
@@ -12,7 +12,7 @@
                                 </label>
                             </div>
                         </div>
-            </div>
+            </div> --}}
         </div>
             
                 <div class="col-md-10">
