@@ -73,7 +73,7 @@
         </div>
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-                <a class="navbar-brand d-block d-sm-block d-md-none d-lg-none" href="#">
+                <a class="nav-link" href="{{ url('/') }}">
                     Floraria Butterflowerss
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -81,32 +81,18 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        {{-- <li class="nav-item">
+                            <a class="nav-link" href="{{ url('/') }}">Acasa</a>
+                        </li> --}}
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ url('/') }}">Home</a>
+                            <a class="nav-link" href="{{ url('/collections') }}">Categorii</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ url('/collections') }}">All Categories</a>
+                            <a class="nav-link" href="#">Povestea Noastra</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">New Arrivals</a>
+                        {{-- <li class="nav-item">
+                            <a class="nav-link" href="#">Featured Products</a> --}}
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Featured Products</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Electronics</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Fashions</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Accessories</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Appliances</a>
                         </li>
                     </ul>
                 </div>
