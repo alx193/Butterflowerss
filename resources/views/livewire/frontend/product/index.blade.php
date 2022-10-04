@@ -39,7 +39,7 @@
                                                 </h5>
                                                 <div>
                                                     <span class="selling-price">{{$productItem->selling_price}} RON</span>
-                                                    <span class="original-price">{{$productItem->original_price}} RON</p></span>
+                                                    {{-- <span class="original-price">{{$productItem->original_price}} RON</p></span> --}}
                                                 </div>
                                                 <div class="mt-2">
 

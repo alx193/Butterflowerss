@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Butterflowerss View Produse</title>
+    <title>Butterflowerss Produse</title>
 
 </head>
 <body>
@@ -39,12 +39,12 @@
                             {{$product->name}}
                         </h4>
                         <hr>
-                        <p class="product-path">
-                            Home / {{ $product->category->name }} / {{ $product->name }}
-                        </p>
+                        <a class="product-path">
+                            <a> Acasa / {{ $product->category->name }} / {{ $product->name }} </a>
+                        </a>
                         <div>
                             <span class="selling-price">{{ $product->selling_price }} RON</span>
-                            <span class="original-price">{{ $product->original_price }} RON</span>
+                            {{-- <span class="original-price">{{ $product->original_price }} RON</span> --}}
                         </div>
                         <div>
                             @if ($product->quantity)
@@ -53,19 +53,19 @@
                               <label class="btn-sm py-1 mt-2 text-white bg-danger">Out of Stock</label>
                               @endif
                         </div>
-                        <div class="mt-2">
+                        {{-- <div class="mt-2">
                             <div class="input-group">
                                 <span class="btn btn1"><i class="fa fa-minus"></i></span>
                                 <input type="text" value="1" class="input-quantity" />
                                 <span class="btn btn1"><i class="fa fa-plus"></i></span>
                             </div>
-                        </div>
-                        <div class="mt-2">
+                        </div> --}}
+                        {{-- <div class="mt-2">
                             <a href="" class="btn btn1"> <i class="fa fa-shopping-cart"></i> Add To Cart</a>
                             <a href="" class="btn btn1"> <i class="fa fa-heart"></i> Add To Wishlist </a>
-                        </div>
-                        <div class="mt-3">
-                            <h5 class="mb-0">Small Description</h5>
+                        </div> --}}
+                        <div class="mt-3"> <br>
+                            <h5 class="mb-0">Optiuni Personalizare</h5>
                             <p>
                                 {{!! $product->small_description }}
                             </p>
@@ -77,7 +77,7 @@
                 <div class="col-md-12 mt-3">
                     <div class="card">
                         <div class="card-header bg-white">
-                            <h4>Description</h4>
+                            <h4>Descriere</h4>
                         </div>
                         <div class="card-body">
                             <p>

@@ -93,10 +93,10 @@
                             <a class="nav-link" href="{{ url('/collections') }}">Categorii</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ url('/collections/info.pages/povs') }}">Povestea Noastra</a>
+                            <a class="nav-link" href="{{ url('/frontend/info.pages/poveste') }}">Povestea Noastra</a>
                         </li>
                          <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link" href="{{ url('/frontend/info.pages/contact') }}">Contact</a>
                         </li>
                         {{-- <li class="nav-item">
                             <a class="nav-link" href="#">Featured Products</a> --}}

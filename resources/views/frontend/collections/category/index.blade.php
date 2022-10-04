@@ -1,18 +1,17 @@
 @extends('layouts.app')
 
-@section('title', 'All Categories')
+@section('title', 'Toate Categoriile')
 
 @section('content')
 
 <div class="py-3 py-md-5 bg-light">
         <div class="container">
             <div class="row">
-                <div class="row-md-12">
-                    <h4 class="mb-4">Our Categories</h4>
+                <div class="row-md-8">
+                    <h4 class="mb-4">Toate Categoriile</h4>
                 </div>
-
                 @forelse ($categories as $categoryItem)
-                <div class="col-6 col-md-3">
+                <div class="col-9 col-md-3">
                     <div class="category-card">
                         <a href="{{ url('/collections/'.$categoryItem->slug) }}">
                             <div class="category-card-img">

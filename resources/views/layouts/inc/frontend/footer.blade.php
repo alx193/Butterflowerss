@@ -13,8 +13,8 @@
                         <h4 class="footer-heading">Navigare rapida</h4>
                         <div class="footer-underline"></div>
                         <div class="mb-2"><a href="{{ url('/') }}" class="text-black">Home</a></div>
-                        <div class="mb-2"><a href="{{ url('/povestea-noastra') }}" class="text-black">Povestea Noastra</a></div>
-                        <div class="mb-2"><a href="{{ url('/contact') }}" class="text-black">Program</a></div>
+                        <div class="mb-2"><a href="{{ url('/frontend/info.pages/poveste') }}" class="text-black">Povestea Noastra</a></div>
+                        <div class="mb-2"><a href="{{ url('/frontend/info.pages/contact') }}" class="text-black">Program</a></div>
                     </div>
                     <div class="col-md-3">
                         <h4 class="footer-heading">Catalog</h4>
@@ -25,7 +25,7 @@
                         <div class="mb-2"><a href="" class="text-black">Featured Products</a></div>
                     </div>
                     <div class="col-md-3">
-                        <h4 class="footer-heading">Adresa</h4>
+                        <h4 class="footer-heading">Contact</h4>
                         <div class="footer-underline"></div>
                                 <div class="mb-3">
                                     <a href="https://www.google.ro/search?q=floraria%20butterflowers&sxsrf=ALiCzsZXu0H6m4VdYkSzltxj9Ig7kD2MAg:1664813473957&source=hp&ei=nAk7Y4ixC8eA8gLbrLbQCA&iflsig=AJiK0e8AAAAAYzsXrILvU3B3ACghnyxqp950mA3pRzMK&oq=floraria+butetrflowers&gs_lp=Egdnd3Mtd2l6uAED-AEBKgIIADIHECMYsAIYJzIHECMYsAIYJzIHECMYsAIYJ8ICBBAjGCfCAgsQABiABBixAxiDAcICCxAuGIAEGLEDGIMBwgIEEAAYQ8ICBRAAGIAEwgIREC4YgAQYsQMYgwEYxwEY0QPCAhQQLhiABBixAxiDARjHARivARjUAsICChAuGMcBGNEDGEPCAggQLhixAxiDAcICBxAuGNQCGEPCAgoQLhixAxiDARhDwgIOEC4YgAQYsQMYgwEY1ALCAggQABiABBjLAcICChAAGLEDGIMBGEPCAgsQABiABBjJAxjLAcICDhAuGIAEGMcBGK8BGMsBwgILEC4YgAQYxwEYrwHCAg0QLhiABBjHARivARgKwgIGEAAYHhgWwgICECbCAgUQIRigAcICDRAuGIAEGMcBGK8BGA3CAg8QLhiABBjHARivARgNGArCAgcQABiABBgNwgIGEAAYHhgNwgIIEAAYHhgIGA1IzRxQAFi1FXAAeADIAQCQAQCYAaIBoAHvFKoBBDAuMjI&sclient=gws-wiz&tbs=lf:1,lf_ui:10&tbm=lcl&rflfq=1&num=10&rldimm=3122364362165829404&lqi=ChZmbG9yYXJpYSBidXR0ZXJmbG93ZXJzWhgiFmZsb3JhcmlhIGJ1dHRlcmZsb3dlcnOSAQdmbG9yaXN0qgEQEAEqDCIIZmxvcmFyaWEoAA&phdesc=v_PapBBeVBU&ved=2ahUKEwiJ5e29ucT6AhVewAIHHaefBhkQvS56BAgHEAE&sa=X&rlst=f#rlfi=hd:;si:3122364362165829404,l,ChZmbG9yYXJpYSBidXR0ZXJmbG93ZXJzWhgiFmZsb3JhcmlhIGJ1dHRlcmZsb3dlcnOSAQdmbG9yaXN0qgEQEAEqDCIIZmxvcmFyaWEoAA,y,v_PapBBeVBU;mv:[[44.4889723,26.101108699999997],[44.415664299999996,26.0517798]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:10">
@@ -51,7 +51,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
-                        <p class=""> &copy; 2022 - Floraria Butetrflowerss.</p>
+                        <p class=""> &copy; 2022 - Floraria Butetrflowerss</p>
                     </div>
                     <div class="col-md-6">
                         <div class="social-media">
