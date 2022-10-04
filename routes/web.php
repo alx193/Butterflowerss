@@ -21,6 +21,7 @@ use Illuminate\Support\Facades\Auth;
 //     return view('test');
 // });
 
+
 Auth::routes();
 
 Route::get('/', [App\Http\Controllers\Frontend\FrontendController::class, 'index']);

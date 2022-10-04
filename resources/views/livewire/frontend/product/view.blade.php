@@ -1,32 +1,39 @@
 <!doctype html>
-<html lang="en">
+<html lang="ro">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Butterflowerss View Produse</title>
 
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-
 </head>
 <body>
-    
-    
-
     <div class="py-3 py-md-4">
         <div class="container">
             <div class="row">
-                <div class="col-md-3 mt-4">
-                    <div class="bg-white border">
+                <div class="col-md-3 mt-3">
+                    <div class="bg-white border" wire:ignore>
                         @if($product->productImages)
-                        <img src="{{ asset($product->productImages[0]->image) }}"  class="w-100" alt="Img">
+                        {{-- <img src="{{ asset($product->productImages[0]->image) }}"  class="w-100" alt="Img"> --}}
+                        <div class="exzoom" id="exzoom">
+                        <div class="exzoom_img_box">
+                            <ul class='exzoom_img_ul'>
+                            @foreach ($product->productImages as $itemImg)
+                                <li><img src="{{ asset($itemImg->image) }}"/></li>
+                            @endforeach
+                            </ul>
+                        </div>
+                        <div class="exzoom_nav"></div>
+                        <p class="exzoom_btn">
+                            <a href="javascript:void(0);" class="exzoom_prev_btn"> < </a>
+                            <a href="javascript:void(0);" class="exzoom_next_btn"> > </a>
+                        </p>
+                        </div>
                         @else
-                        No Image
+                            No Image
                         @endif
                     </div>
                 </div>
-                <div class="col-md-7 mt-3">
+                <div class="col-md-9 mt-3">
                     <div class="product-view">
                         <h4 class="product-name">
                             {{$product->name}}
@@ -67,7 +74,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-10 mt-3">
+                <div class="col-md-12 mt-3">
                     <div class="card">
                         <div class="card-header bg-white">
                             <h4>Description</h4>
@@ -82,7 +89,28 @@
             </div>
         </div>
     </div>
+    @push('scripts')
+
+    <script>
+                    $(function(){
+
+                        $("#exzoom").exzoom({
+                            "navWidth": 80,
+                            "navHeight": 80,
+                            "navItemNum": 5,
+                            "navItemMargin": 7,
+                            "navBorder": 1,
+                            "autoPlay": false,
+                            "autoPlayTimeout": 2000
+                    
+                        });
+
+                    });
+    </script>
+
+    @endpush
 
     {{-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script> --}}
 </body>
 </html>
+
