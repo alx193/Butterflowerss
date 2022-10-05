@@ -282,21 +282,28 @@
   
     /* Footer Start */
     .footer-area{
-        padding: 10px 0px;
+        padding: 5px 0px;
         background-color: #c7abc4;
         color: rgb(4, 4, 4);
         bottom: 0;
+        border-top: 3px solid #262626;
+        border-left: 3px solid #262626;
+        border-right: 3px solid #262626;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
     }
     .footer-area a{
         text-decoration: none;
+        
     }
     .footer-area .footer-heading{
+        text-decoration-style:solid;
         font-size: 24px;
         color: rgb(5, 5, 5);
     }
     .footer-area .footer-underline{
         height: 1px;
-        width: 70px;
+        width: 50px;
         background-color: rgb(6, 0, 0);
         margin: 11px 0px;
     }
@@ -338,6 +345,11 @@
         width: 100%;
         position: sticky;
         top: 0;
+        border-bottom: 3px solid #262626;
+        border-left: 3px solid #262626;
+        border-right: 3px solid #262626;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
 
       }
       .logo{
@@ -365,10 +377,11 @@
       a.active,a:hover{
         background: #c7abc4;
         transition: .5s;
+        
       }
       .checkbtn{
         font-size: 30px;
-        color: black;
+        color: #262626;
         float: right;
         line-height: 80px;
         margin-right: 40px;
@@ -383,6 +396,7 @@
         label.logo{
           font-size: 30px;
           padding-left: 50px;
+          
         }
         nav ul li a{
           font-size: 16px;
@@ -391,16 +405,18 @@
       @media (max-width: 858px){
         .checkbtn{
           display: block;
+          
         }
         ul{
           position: fixed;
           width: 100%;
           height: 100vh;
-          background: #2c3e50;
+          background: #C7abc4;
           top: 80px;
           left: -100%;
           text-align: center;
           transition: all .5s;
+          
         }
         nav ul li{
           display: block;
@@ -412,7 +428,7 @@
         }
         a:hover,a.active{
           background: none;
-          color: #0082e6;
+          color: black;
         }
         #check:checked ~ ul{
           left: 0;
@@ -430,7 +446,9 @@
       .copyright-areaa p{
           text-align: center;
           margin-bottom: 0px;
-          color: #c7abc4
+          color: #c7abc4;
+          font-weight:bold;
+          font-size: large;
       }
    
     

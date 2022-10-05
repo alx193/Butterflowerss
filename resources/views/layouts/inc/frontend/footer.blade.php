@@ -39,11 +39,11 @@
                                         <i class="fa fa-phone-square"></i><p>Pentru Comenzi : 0721 332 458</p>
                                     </a>
                                 </div>
-                                <div class="mb-3">
+                                {{-- <div class="mb-3">
                                     <a href="/" class="text-black">
                                         <i class="fa fa-envelope-square"></i><p>florariabutterflowerss@gmail.com</p>
                                     </a>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
                 </div>
