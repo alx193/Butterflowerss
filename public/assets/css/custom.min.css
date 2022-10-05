@@ -202,7 +202,8 @@
 
   .social-media{
     display: inline-block;
-    text-align: left;
+    text-align: right;
+    margin-left: 210px;
     }
 
   .fa-facebook {
@@ -415,11 +416,6 @@
           left: 0;
         }
       }
-      /* section{
-        background: url(bg1.jpg) no-repeat;
-        background-size: cover;
-        height: calc(100vh - 80px);
-      } */
         /* Responsive Navbar End */
 
 

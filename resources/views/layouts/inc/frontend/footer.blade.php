@@ -8,6 +8,8 @@
                             <p>
                                 Florile sunt cuvintele iubirii si respectului!
                             </p>
+                            <div class="mb-2"><a href="https://ro-ro.facebook.com/people/Floraria-Butterflowers/100064567820874/"><i class="fa fa-facebook"></i><p>Facebook</p></a></div>
+                            <div class="mb-2"><a href="https://instagram.com/florariabutterflowerss?igshid=YmMyMTA2M2Y="><i class="fa fa-instagram"></i><p>Instagram</p></a></div>
                         </div>
                     <div class="col-md-3">
                         <h4 class="footer-heading">Navigare rapida</h4>
@@ -51,13 +53,13 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
-                        <p class=""> &copy; 2022 - Floraria Butetrflowerss</p>
+                        <p class=""> &copy; 2022 - Floraria Butterflowerss</p>
                     </div>
                     <div class="col-md-6">
                         <div class="social-media">
                             Social Media :
-                            <a href=""><i class="fa fa-facebook"></i></a>
-                            <a href=""><i class="fa fa-instagram"></i></a>
+                            <a href="https://ro-ro.facebook.com/people/Floraria-Butterflowers/100064567820874/"><i class="fa fa-facebook"></i></a>
+                            <a href="https://instagram.com/florariabutterflowerss?igshid=YmMyMTA2M2Y="><i class="fa fa-instagram"></i></a>
                         </div>
                     </div>
                 </div>
