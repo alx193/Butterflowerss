@@ -389,14 +389,13 @@
         display: none;
       }
       #check{
-        color: black;
+        color: #262626;
         display: none;
       }
       @media (max-width: 952px){
         label.logo{
           font-size: 30px;
           padding-left: 50px;
-          
         }
         nav ul li a{
           font-size: 16px;
@@ -405,7 +404,6 @@
       @media (max-width: 858px){
         .checkbtn{
           display: block;
-          
         }
         ul{
           position: fixed;
