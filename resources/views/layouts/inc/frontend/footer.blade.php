@@ -5,10 +5,10 @@
                     <div class="col-md-3">
                         <h4 class="footer-heading">Floraria Butterflowerss</h4>
                         <div class="footer-underline"></div>
-                        <p>
-                            Florile sunt cuvintele iubirii si respectului!
-                        </p>
-                    </div>
+                            <p>
+                                Florile sunt cuvintele iubirii si respectului!
+                            </p>
+                        </div>
                     <div class="col-md-3">
                         <h4 class="footer-heading">Navigare rapida</h4>
                         <div class="footer-underline"></div>

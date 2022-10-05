@@ -4,7 +4,7 @@
 
 @section('content')
 
-<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+{{-- <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
 
   <div class="carousel-inner">
 
@@ -35,7 +35,7 @@
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </button>
-</div>
+</div> --}}
 
 
 @endsection

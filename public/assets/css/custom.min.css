@@ -10,8 +10,9 @@
     text-decoration: none;
 }
 .category-card .category-card-img{
+    width: 100%;
     text-align: center;
-    max-height: 260px;
+    max-height: 300px;
     overflow: hidden;
     border-bottom: 1px solid #ccc;
 }
@@ -61,59 +62,6 @@
     letter-spacing: 0.5px;
 }
 /*Sldier Frontend End*/
-
-
-/* Frontend navbar */
-
-.main-navbar{
-    border-bottom: 0px solid #c7abc4;
-}
-.main-navbar .top-navbar{
-    background-color: #c7abc4;
-    /* padding-top: 20px;
-    padding-bottom: 20px; */
-}
-.main-navbar .top-navbar .brand-name{
-    color: rgb(9, 9, 9);
-}
-.main-navbar .top-navbar .nav-link{
-    color: rgb(3, 3, 3);
-    font-size: 16px;
-    font-weight: 500;
-}
-.main-navbar .top-navbar .dropdown-menu{
-    padding: 0px 0px;
-    border-radius: 0px;
-}
-.main-navbar .top-navbar .dropdown-menu .dropdown-item{
-    margin-top: 50px;
-    padding: 8px 8px;
-    border-bottom: 1px solid rgb(104, 103, 103);
-    font-size: 14px;
-}
-.main-navbar .top-navbar .dropdown-menu .dropdown-item i{
-    width: 20px;
-    text-align: center;
-    color: #050506;
-    font-size: 14px;
-}
-.main-navbar .navbar{
-    padding: 0px;
-    background-color: #ddd;
-}
-.main-navbar .navbar .nav-item .nav-link{
-    padding: 8px 20px;
-    color: #000;
-    font-size: 15px;
-}
-
-@media only screen and (max-width: 600px) {
-    .main-navbar .top-navbar .nav-link{
-        font-size: 12px;
-        padding: 8px 10px;
-    }
-}
-/*Frontend Navbar End*/
 
 
 /* Product Card */
@@ -235,6 +183,10 @@
     outline: none;
     text-align: center;
 }
+
+.card {
+  overflow: hidden;
+}
 /* Product View */
 
 /* Social media links  Start*/  
@@ -249,7 +201,8 @@
   }
 
   .social-media{
-    text-align: auto;
+    display: inline-block;
+    text-align: left;
     }
 
   .fa-facebook {
@@ -311,30 +264,17 @@
         box-shadow: 0px 3px 10px rgba(0,0,0,.25);
     }
 
-    .fa-phone-squarea {
-        margin-right: 100px;
-        display: inline;
-        width: 35px;
-        height: 35px;
-        text-align: center;
-        border-radius: 20%;
-        font-size: 20px;
-        line-height: 40px;
-        vertical-align: middle;
-        /* box-shadow: 0px 3px 10px rgba(0,0,0,.25); */
-    }
-
     .fa-envelope-square {
         display: inline-block;
         width: 40px;
         height: 40px;
         text-align: center;
         border-radius: 30%;
-        color: red;
+        color: rgb(49, 152, 241);
         font-size: 30px;
         line-height: 40px;
         vertical-align: middle;
-        background: white;
+        background: rgb(247, 248, 249);
         box-shadow: 0px 3px 10px rgba(0,0,0,.25);
     }
     /* Social media links  End*/
@@ -344,6 +284,7 @@
         padding: 10px 0px;
         background-color: #c7abc4;
         color: rgb(4, 4, 4);
+        bottom: 0;
     }
     .footer-area a{
         text-decoration: none;
@@ -378,9 +319,108 @@
 
     /* Navbar-logo Start */
     .img-responsive {
-    height: auto;
-    width: auto;
-    max-height: 150px;
-    max-width: 250px;
+        max-height: 200px;
+        max-width: 250px;
+        font-size: 50px;
+        line-height: 100px;
+        padding: 0 100px;
+        font-weight: bold;
     }
     /* Navbar-logo End */
+
+    /* Responsive Navbar Start */
+    nav{
+        background: #c7abc4;
+        height: 80px;
+        width: 100%;
+        position: sticky;
+        top: 0;
+
+      }
+      .logo{
+        color: white;
+        font-size: 40px;
+        line-height: 70px;
+        font-weight: bold;
+      }
+      nav ul{
+        float: right;
+        margin-right: 20px;
+      }
+      nav ul li{
+        display: inline-block;
+        line-height: 80px;
+        margin: 0 5px;
+      }
+      nav ul li a{
+        color: black;
+        font-size: 17px;
+        padding: 7px 13px;
+        border-radius: 3px;
+        text-transform: uppercase;
+      }
+      a.active,a:hover{
+        background: #c7abc4;
+        transition: .5s;
+      }
+      .checkbtn{
+        font-size: 30px;
+        color: black;
+        float: right;
+        line-height: 80px;
+        margin-right: 40px;
+        cursor: pointer;
+        display: none;
+      }
+      #check{
+        color: black;
+        display: none;
+      }
+      @media (max-width: 952px){
+        label.logo{
+          font-size: 30px;
+          padding-left: 50px;
+        }
+        nav ul li a{
+          font-size: 16px;
+        }
+      }
+      @media (max-width: 858px){
+        .checkbtn{
+          display: block;
+        }
+        ul{
+          position: fixed;
+          width: 100%;
+          height: 100vh;
+          background: #2c3e50;
+          top: 80px;
+          left: -100%;
+          text-align: center;
+          transition: all .5s;
+        }
+        nav ul li{
+          display: block;
+          margin: 50px 0;
+          line-height: 30px;
+        }
+        nav ul li a{
+          font-size: 20px;
+        }
+        a:hover,a.active{
+          background: none;
+          color: #0082e6;
+        }
+        #check:checked ~ ul{
+          left: 0;
+        }
+      }
+      /* section{
+        background: url(bg1.jpg) no-repeat;
+        background-size: cover;
+        height: calc(100vh - 80px);
+      } */
+        /* Responsive Navbar End */
+
+
+    

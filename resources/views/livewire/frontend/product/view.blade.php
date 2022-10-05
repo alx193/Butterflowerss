@@ -11,9 +11,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-3 mt-3">
-                    <div class="bg-white border" wire:ignore>
+                <img src="{{ asset($product->productImages[0]->image) }}"  class="w-100" alt="Img">
+                    {{-- <div class="bg-white border" wire:ignore>
+
                         @if($product->productImages)
-                        {{-- <img src="{{ asset($product->productImages[0]->image) }}"  class="w-100" alt="Img"> --}}
+                        
                         <div class="exzoom" id="exzoom">
                         <div class="exzoom_img_box">
                             <ul class='exzoom_img_ul'>
@@ -31,7 +33,7 @@
                         @else
                             No Image
                         @endif
-                    </div>
+                    </div> --}}
                 </div>
                 <div class="col-md-9 mt-3">
                     <div class="product-view">
@@ -46,13 +48,13 @@
                             <span class="selling-price">{{ $product->selling_price }} RON</span>
                             {{-- <span class="original-price">{{ $product->original_price }} RON</span> --}}
                         </div>
-                        <div>
+                        {{-- <div>
                             @if ($product->quantity)
                              <label class="btn-sm py-1 mt-2 text-white bg-success">In Stock</label>
                              @else
                               <label class="btn-sm py-1 mt-2 text-white bg-danger">Out of Stock</label>
                               @endif
-                        </div>
+                        </div> --}}
                         {{-- <div class="mt-2">
                             <div class="input-group">
                                 <span class="btn btn1"><i class="fa fa-minus"></i></span>
@@ -89,11 +91,10 @@
             </div>
         </div>
     </div>
-    @push('scripts')
+    {{-- @push('scripts')
 
     <script>
                     $(function(){
-
                         $("#exzoom").exzoom({
                             "navWidth": 80,
                             "navHeight": 80,
@@ -104,13 +105,11 @@
                             "autoPlayTimeout": 2000
                     
                         });
-
                     });
     </script>
 
-    @endpush
+    @endpush --}}
 
     {{-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script> --}}
 </body>
 </html>
-
