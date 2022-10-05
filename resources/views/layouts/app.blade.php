@@ -40,10 +40,23 @@
         
 
         <main>
+                    
+                            <div class="copyright-areaa">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <p class="">Florile sunt cuvintele iubirii si respectului!</p>
+                                        </div>
+                                    </div>
+                                </div>   
+                            </div>
+                     
+
             @yield('content')
             
-        </main>
 
+        </main>
+            
         @include('layouts.inc.frontend.footer')
 
     </div>

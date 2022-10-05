@@ -123,6 +123,9 @@
                     <a class="logo" href="/" title="Floraria ButterFlowerss">
                         <img src="{{ url('assets/images/rotund1.png') }}" class="img-responsive">
                     </a>
+
+                       
+                    
                     <ul>
                     <li><a class="active" href="{{ url('/collections') }}">Categorii</a></li>
                     <li><a class="active" href="{{ url('/frontend/info.pages/poveste') }}">Povestea Noastra</a></li>

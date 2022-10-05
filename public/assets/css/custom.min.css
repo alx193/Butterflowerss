@@ -301,10 +301,12 @@
         margin: 11px 0px;
     }
     .copyright-area{
+
         padding: 20px 0px;
         background-color: #262626;
     }
     .copyright-area p{
+        text-align: center;
         margin-bottom: 0px;
         color: #fff;
     }
@@ -419,4 +421,16 @@
         /* Responsive Navbar End */
 
 
+
+        .copyright-areaa{
+
+          padding: 20px 0px;
+          background-color: white;
+      }
+      .copyright-areaa p{
+          text-align: center;
+          margin-bottom: 0px;
+          color: #c7abc4
+      }
+   
     

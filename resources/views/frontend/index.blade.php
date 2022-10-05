@@ -2,7 +2,13 @@
 
 @section('title', 'Home Page')
 
+                    
+
 @section('content')
+
+                    
+    
+
 
 {{-- <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
 
