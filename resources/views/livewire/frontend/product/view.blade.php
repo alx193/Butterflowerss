@@ -42,7 +42,7 @@
                         </h4>
                         <hr>
                         <a class="product-path">
-                            <a> Acasa / {{ $product->category->name }} / {{ $product->name }} </a>
+                            <p> Acasa / {{ $product->category->name }}  / {{ $product->name }} </p>
                         </a>
                         <div>
                             <span class="selling-price">{{ $product->selling_price }} RON</span>
@@ -66,24 +66,32 @@
                             <a href="" class="btn btn1"> <i class="fa fa-shopping-cart"></i> Add To Cart</a>
                             <a href="" class="btn btn1"> <i class="fa fa-heart"></i> Add To Wishlist </a>
                         </div> --}}
-                        <div class="mt-3"> <br>
-                            <h5 class="mb-0">Optiuni Personalizare</h5>
-                            <p>
-                                {{!! $product->small_description }}
-                            </p>
+                        <div class="row"> <br>
+                            <div class="col-md-12 mt-5">
+                                <div class="card1">
+                                    <div class="card-header bg-white">
+                                            <h4>Optiuni Personalizare</h4>
+                                    </div>
+                                          <div class="card-body">
+                                             <p>
+                                                {{ $product->small_description }}
+                                             </p>
+                                          </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-12 mt-3">
-                    <div class="card">
+                <div class="col-md-12 mt-5">
+                    <div class="card1">
                         <div class="card-header bg-white">
                             <h4>Descriere</h4>
                         </div>
                         <div class="card-body">
                             <p>
-                                {{!! $product->description }}
+                                {{ $product->description }}
                             </p>
                         </div>
                     </div>

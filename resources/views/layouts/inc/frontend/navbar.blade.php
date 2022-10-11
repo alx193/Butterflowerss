@@ -128,8 +128,8 @@
                     
                     <ul>
                     <li><a class="active" href="{{ url('/collections') }}">Categorii</a></li>
-                    <li><a class="active" href="{{ url('/frontend/info.pages/poveste') }}">Povestea Noastra</a></li>
-                    <li><a class="active" href="{{ url('/frontend/info.pages/contact') }}">Contact</a></li>
+                    <li><a class="active" href="{{ url('/frontend/infopages/story') }}">Povestea Noastra</a></li>
+                    <li><a class="active" href="{{ url('/frontend/infopages/contact') }}">Contact</a></li>
                     <li><a class="active" href="https://wa.me/40721332458">Comenzi : 0721 332 458</a></li>
                     {{-- <li><a href="https://wa.me/40721332458"class="fa fa-phone-squarea">Comenzi : 0721 332 458</a></li><br>
                     <li><a href="https://www.facebook.com/profile.php?id=100064567820874"><i class="fa fa-facebook"></i></a></li><br>

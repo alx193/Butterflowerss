@@ -5,6 +5,8 @@
     border-radius: 5px;
     margin-bottom: 24px;
     background-color: #fff;
+    box-shadow: 0 6px 12px 0 rgba(0,0,0,.2);
+    
 }
 .category-card a{
     text-decoration: none;
@@ -70,6 +72,7 @@
     border: 5px solid #c7abc4;
     border-radius: 5px;
     margin-bottom: 24px;
+    box-shadow: 0 6px 12px 0 rgba(0,0,0,.2);
 }
 .product-card a{
     text-decoration: none;
@@ -134,8 +137,9 @@
 
 /* Product View */
 .product-view .product-name{
-    font-size: 24px;
-    color: #2874f0;
+    font-size: 40px;
+    color: #c7abc4;
+    font-weight: bold;    
 }
 .product-view .product-name .label-stock{
     font-size: 13px;
@@ -148,7 +152,7 @@
 .product-view .product-path{
     font-size: 13px;
     font-weight: 500;
-    color: #252525;
+    color: black;
     margin-bottom: 16px;
 }
 .product-view .selling-price{
@@ -184,9 +188,12 @@
     text-align: center;
 }
 
-.card {
-  overflow: hidden;
+.card1 {
+  box-shadow: 0 6px 12px 0 rgba(0,0,0,.2);
+  border: 5px solid #c7abc4;
+  border-radius: 5px;
 }
+
 /* Product View */
 
 /* Social media links  Start*/  

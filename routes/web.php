@@ -30,6 +30,11 @@ Route::get('collections/{category_slug}', [App\Http\Controllers\Frontend\Fronten
 
 Route::get('collections/{category_slug}/{product_slug}', [App\Http\Controllers\Frontend\FrontendController::class, 'productView']);
 
+
+Route::get('/frontend/infopages/contact', [App\Http\Controllers\Frontend\ContactController::class, 'contact']);
+Route::get('/frontend/infopages/story', [App\Http\Controllers\Frontend\StoryController::class, 'story']);
+
+
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 Auth::routes();
@@ -70,4 +75,6 @@ Route::prefix('admin')->middleware('auth', 'isAdmin')->group(function () {
         Route::get('/products/{product_id}/delete', 'destroy');
         Route::get('product-image/{product_image_id}/delete','destroyImage');
     });
+
+    
 });

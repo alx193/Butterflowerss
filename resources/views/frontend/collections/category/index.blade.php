@@ -5,7 +5,7 @@
 @section('content')
 
                     
-<div class="py-3 py-md-5">
+<div class="py-5 py-md-5">
         <div class="container">
                     
             <div class="row">
@@ -15,10 +15,10 @@
                 @forelse ($categories as $categoryItem)
                 <div class="col-9 col-md-3">
                     <div class="category-card">
-                        <a href="{{ url('/collections/'.$categoryItem->slug) }}">
-                            <div class="category-card-img">
-                            <img src="{{ asset("$categoryItem->image") }}" class="width-10px; height-10px">
-                            </div>
+                        <a href="{{ url('collections/'.$categoryItem->slug) }}">
+                            {{-- <div class="category-card-img">
+                            <img src="{{ asset("$categoryItem->image") }}">
+                            </div> --}}
                             <div class="category-card-body">
                                 <h5>{{$categoryItem->name}}</h5>
                             </div>
