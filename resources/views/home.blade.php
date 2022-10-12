@@ -1,6 +1,10 @@
 @extends('layouts.app')
 
+@section ('Floraria Butterflowerss')
+<title>Floraria Butterflowerss</title>
+
 @section('content')
+
 
     <div class="row justify-content-center">
         <div class="col-md-8">

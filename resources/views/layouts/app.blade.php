@@ -8,6 +8,10 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <title>@yield('title')</title>
+    
+  
+
+    <link rel="icon" type="image/x-icon" href="{{ url('assets/images/rotund1.ico') }}">
 
     <meta name="description" content="@yield('meta_description')">
     <meta name="description" content="@yield('meta_keyword')">
@@ -36,11 +40,7 @@
     
 
         @include('layouts.inc.frontend.navbar')
-        
-        
-
         <main>
-                    
                             <div class="copyright-areaa">
                                 <div class="container">
                                     <div class="row">
@@ -53,11 +53,7 @@
                                     </div>
                                 </div>   
                             </div>
-                     
-
             @yield('content')
-            
-
         </main>
             
         @include('layouts.inc.frontend.footer')
