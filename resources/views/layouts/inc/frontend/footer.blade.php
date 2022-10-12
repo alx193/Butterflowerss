@@ -3,11 +3,11 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-3">
-                        <h4 class="footer-heading">Floraria Butterflowerss</h4>
+                        <h4 class="footer-heading"> Social Media</h4>
                         <div class="footer-underline"></div>
-                            <p>
+                            {{-- <p>
                                 Florile sunt cuvintele iubirii si respectului!
-                            </p>
+                            </p> --}}
                             <div class="mb-2"><a href="https://ro-ro.facebook.com/people/Floraria-Butterflowers/100064567820874/"><i class="fa fa-facebook"></i><p>Facebook</p></a></div>
                             <div class="mb-2"><a href="https://instagram.com/florariabutterflowerss?igshid=YmMyMTA2M2Y="><i class="fa fa-instagram"></i><p>Instagram</p></a></div>
                         </div>
@@ -15,11 +15,11 @@
                         <h4 class="footer-heading">Navigare rapida</h4>
                         <div class="footer-underline"></div>
                         <div class="mb-2"><a href="{{ url('/') }}" class="text-black">Home</a></div>
-                        <div class="mb-2"><a href="{{ url('/frontend/info.pages/poveste') }}" class="text-black">Povestea Noastra</a></div>
-                        <div class="mb-2"><a href="{{ url('/frontend/info.pages/contact') }}" class="text-black">Program</a></div>
+                        <div class="mb-2"><a href="{{ url('/frontend/infopages/story') }}" class="text-black">Povestea Noastra</a></div>
+                        <div class="mb-2"><a href="{{ url('/frontend/infopages/contact') }}" class="text-black">Program</a></div>
                     </div>
                     <div class="col-md-3">
-                        <h4 class="footer-heading">Catalog</h4>
+                        <h4 class="footer-heading">Catalog Produse</h4>
                         <div class="footer-underline"></div>
                         <div class="mb-2"><a href="{{ url('collections/buchete-florale') }}" class="text-black">Buchete Florale</a></div>
                         <div class="mb-2"><a href="{{ url('/collections/aranjamente-florale') }}" class="text-black">Aranjamente Florale</a></div>

@@ -5,11 +5,13 @@
     margin-bottom: 24px;
     background-color: #fff;
     box-shadow: 0px 0px 10px 0px #262626;
-    
+    transition: 0.3s;
 }
+
 .category-card a{
     text-decoration: none;
 }
+
 .category-card .category-card-img{
     width: 100%;
     text-align: center;
@@ -17,9 +19,11 @@
     overflow: hidden;
     border-bottom: 1px solid #ccc;
 }
+
 .category-card .category-card-body{
     padding: 10px 16px;
 }
+
 .category-card .category-card-body h5{
     margin-bottom: 0px;
     font-size: 18px;
@@ -72,9 +76,11 @@
     border-radius: 5px;
     margin-bottom: 24px;
     box-shadow: 0px 0px 10px 0px #262626;
+    transition: 0.3s;
 }
 .product-card a{
     text-decoration: none;
+    transition: 0.3s;
 }
 .product-card .stock{
     position: absolute;
@@ -83,18 +89,21 @@
     padding: 2px 12px;
     margin: 8px;
     font-size: 12px;
+    transition: 0.3s;
 }
 .product-card .product-card-img{
     max-height: 260px;
     overflow: hidden;
     border-bottom: 1px solid #ccc;
-    
+    transition: 0.3s;
 }
 .product-card .product-card-img img{
     width: 100%;
+    transition: 0.3s;
 }
 .product-card .product-card-body{
     padding: 10px 10px;
+    transition: 0.3s;
 }
 .product-card .product-card-body .product-brand{
     font-size: 14px;
@@ -104,6 +113,7 @@
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
+    transition: 0.3s;
 }
 .product-card .product-card-body .product-name{
     font-size: 20px;
@@ -112,18 +122,21 @@
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
+    transition: 0.3s;
 }
 .product-card .product-card-body .selling-price{
     font-size: 22px;
     color: #000;
     font-weight: 600;
     margin-right: 8px;
+    transition: 0.3s;
 }
 .product-card .product-card-body .original-price{
     font-size: 18px;
     color: #937979;
     font-weight: 400;
     text-decoration: line-through;
+    transition: 0.3s;
 }
 .product-card .product-card-body .btn1{
     border: 1x solid;
@@ -131,6 +144,7 @@
     border-radius: 0px;
     font-size: 12px;
     margin-top: 10px;
+    transition: 0.3s;
 }
 /* Product Card End */
 
@@ -139,7 +153,8 @@
 .product-view .product-name{
     font-size: 40px;
     color: #c7abc4;
-    font-weight: bold;    
+    font-weight: bold;
+    transition: 0.3s;    
 }
 .product-view .product-name .label-stock{
     font-size: 13px;
@@ -148,24 +163,28 @@
     color: #fff;
     box-shadow: 0px 0px 10px 0px #262626;
     float: right;
+    transition: 0.3s;
 }
 .product-view .product-path{
     font-size: 13px;
     font-weight: 500;
     color: black;
     margin-bottom: 16px;
+    transition: 0.3s;
 }
 .product-view .selling-price{
     font-size: 26px;
     color: #000;
     font-weight: 600;
     margin-right: 8px;
+    transition: 0.3s;
 }
 .product-view .original-price{
     font-size: 18px;
     color: #937979;
     font-weight: 400;
     text-decoration: line-through;
+    transition: 0.3s;
 }
 .product-view .btn1{
     border: 1px solid;
@@ -173,10 +192,12 @@
     border-radius: 0px;
     font-size: 14px;
     margin-top: 10px;
+    transition: 0.3s;
 }
 .product-view .btn1:hover{
     background-color: #c7abc4;
     color: #fff;
+    transition: 0.3s;
 }
 .product-view .input-quantity{
     border: 1px solid #000;
@@ -186,6 +207,7 @@
     width: 58px;
     outline: none;
     text-align: center;
+    transition: 0.3s;
 }
 
 .card1 {
@@ -198,6 +220,7 @@
               4px 4px 0px #8c778a,
               5px 5px 0px #8c778a,
               6px 6px 0px #8c778a;
+  transition: 0.3s;
 }
 
 /* Product View */
@@ -372,6 +395,7 @@
         font-size: 40px;
         line-height: 70px;
         font-weight: bold;
+        transition: 0.3s;
       }
       
       nav ul{
@@ -397,9 +421,9 @@
                     5px 5px 0px #8c778a,
                     6px 6px 0px #8c778a;
       }
-      a.active,a:hover{
+      a.active,a:hover, nav-item{
         background: none;
-        transition: 1.2s;
+        transition: 0.3s;
         
       }
       .checkbtn{
@@ -436,7 +460,7 @@
           top: 80px;
           left: -100%;
           text-align: center;
-          transition: all .5s;
+          transition:  0.3s;
           
         }
         nav ul li{

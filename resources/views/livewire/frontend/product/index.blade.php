@@ -15,7 +15,7 @@
             </div> --}}
         </div>
             
-                <div class="col-md-10">
+                <div class="col-md-12">
                         <div class="row">
                                 @forelse ($products as $productItem)
                                     <div class="col-md-3">
