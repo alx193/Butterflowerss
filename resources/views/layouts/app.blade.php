@@ -46,6 +46,9 @@
                                     <div class="row">
                                         <div class="col-md-12">
                                             <p class="">Florile sunt cuvintele iubirii si respectului!</p>
+                                            <p>
+                                                <a href="tel:+40721332458">Comanda acum : 0721 332 458</a>
+                                            </p>
                                         </div>
                                     </div>
                                 </div>   

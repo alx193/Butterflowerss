@@ -1,11 +1,10 @@
 /* Category Start */
 .category-card{
     border: 5px solid #c7abc4;
-    box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 8%);
     border-radius: 5px;
     margin-bottom: 24px;
     background-color: #fff;
-    box-shadow: 0 6px 12px 0 rgba(0,0,0,.2);
+    box-shadow: 0px 0px 10px 0px #262626;
     
 }
 .category-card a{
@@ -72,7 +71,7 @@
     border: 5px solid #c7abc4;
     border-radius: 5px;
     margin-bottom: 24px;
-    box-shadow: 0 6px 12px 0 rgba(0,0,0,.2);
+    box-shadow: 0px 0px 10px 0px #262626;
 }
 .product-card a{
     text-decoration: none;
@@ -89,6 +88,7 @@
     max-height: 260px;
     overflow: hidden;
     border-bottom: 1px solid #ccc;
+    
 }
 .product-card .product-card-img img{
     width: 100%;
@@ -146,7 +146,7 @@
     padding: 4px 13px;
     border-radius: 5px;
     color: #fff;
-    box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 8%);
+    box-shadow: 0px 0px 10px 0px #262626;
     float: right;
 }
 .product-view .product-path{
@@ -189,9 +189,15 @@
 }
 
 .card1 {
-  box-shadow: 0 6px 12px 0 rgba(0,0,0,.2);
+  /* box-shadow: 0px 0px 10px 0px #262626; */
   border: 5px solid #c7abc4;
   border-radius: 5px;
+  box-shadow: 1px 1px 0px #8c778a,
+              2px 2px 0px #8c778a,
+              3px 3px 0px #8c778a,
+              4px 4px 0px #8c778a,
+              5px 5px 0px #8c778a,
+              6px 6px 0px #8c778a;
 }
 
 /* Product View */
@@ -225,7 +231,7 @@
         vertical-align: middle;
         background: #3B5998;
         color: #f3f5f8;
-        box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+        box-shadow: 0px 0px 10px 0px #262626;
   }
 
   .fa-instagram {
@@ -241,7 +247,7 @@
         vertical-align: middle;
         /* background: #d6249f; */
         background: radial-gradient(circle at 30% 100%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
-        box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+        box-shadow: 0px 0px 10px 0px #262626;
     }
 
     .fa-map-marker {
@@ -255,7 +261,7 @@
         font-size: 30px;
         line-height: 40px;
         vertical-align: middle;
-        box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+        box-shadow: 0px 0px 10px 0px #262626;
     }
 
     .fa-phone-square {
@@ -269,10 +275,10 @@
         line-height: 40px;
         vertical-align: middle;
         background: white;
-        box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+        box-shadow: 0px 0px 10px 0px #262626;
     }
 
-    .fa-envelope-square {
+    /* .fa-envelope-square {
         display: inline-block;
         width: 40px;
         height: 40px;
@@ -283,8 +289,8 @@
         line-height: 40px;
         vertical-align: middle;
         background: rgb(247, 248, 249);
-        box-shadow: 0px 3px 10px rgba(0,0,0,.25);
-    }
+        box-shadow: 0px 0px 10px 0px #262626;
+    } */
     /* Social media links  End*/
   
     /* Footer Start */
@@ -298,6 +304,7 @@
         border-right: 3px solid #262626;
         border-top-left-radius: 5px;
         border-top-right-radius: 5px;
+        box-shadow: 0px 0px 10px 0px #262626;
     }
     .footer-area a{
         text-decoration: none;
@@ -357,17 +364,20 @@
         border-right: 3px solid #262626;
         border-bottom-left-radius: 5px;
         border-bottom-right-radius: 5px;
-
+        box-shadow: 0px 0px 10px 0px #262626;
       }
+      
       .logo{
         color: white;
         font-size: 40px;
         line-height: 70px;
         font-weight: bold;
       }
+      
       nav ul{
         float: right;
         margin-right: 20px;
+        
       }
       nav ul li{
         display: inline-block;
@@ -380,10 +390,16 @@
         padding: 7px 13px;
         border-radius: 3px;
         text-transform: uppercase;
+        box-shadow: 1px 1px 0px #8c778a,
+                    2px 2px 0px #8c778a,
+                    3px 3px 0px #8c778a,
+                    4px 4px 0px #8c778a,
+                    5px 5px 0px #8c778a,
+                    6px 6px 0px #8c778a;
       }
       a.active,a:hover{
-        background: #c7abc4;
-        transition: .5s;
+        background: none;
+        transition: 1.2s;
         
       }
       .checkbtn{
@@ -444,16 +460,103 @@
 
 
         .copyright-areaa{
-
           padding: 20px 0px;
-          background-color: white;
+          /* border-bottom: 0.5px solid #262626;
+          border-radius: 5px; */
+          /* box-shadow: 0px 0px 10px 0px #262626; */
       }
-      .copyright-areaa p{
+      .copyright-areaa p {
+          margin-top: 5px;
           text-align: center;
           margin-bottom: 0px;
           color: #c7abc4;
-          font-weight:bold;
+          font-weight:800;
           font-size: large;
       }
-   
-    
+
+ 
+      
+/*Contact Page Start  */
+
+    .contact{
+      width: 70%;
+      height: auto;
+      margin: auto;
+      display: flex;
+      flex-wrap: wrap;
+      padding: 10px;
+      border-radius: 5px;
+      background: #c7abc4;
+      box-shadow: 0px 0px 10px 0px #262626;
+      margin-bottom: 40px;
+      margin-top: 20px;
+    }
+
+     .contact-map{
+      width: 100%;
+      height: auto;
+      flex: 50%;
+    }
+
+     .contact-map iframe {
+      width: 100%;
+      height: 100%;
+      border-radius: 5px;
+      box-shadow: 0px 0px 10px 0px #262626;
+    }
+
+    .contact-schedule{
+      width: 100%;
+      height: auto;
+      flex: 50%;
+      padding: 30px;
+    }
+
+    .contact-schedule h2{
+      margin-bottom: 10px;
+      text-align: center;
+    }
+
+    .contact-schedule  p{
+      width: 100%;
+      height: 50px;
+      color: #000;
+      border: 1px solid #262626;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+      outline: #fff;
+      margin-bottom: 0px;
+      padding: 15px;
+      line-height: 15px;
+      background-color: #fff;
+      text-align: center;
+    }
+/*Contact Page End  */
+
+/* Story Page Start */
+    .story{
+      width: 80%;
+      height: auto;
+      margin: auto;
+      display: flex;
+      flex-wrap: wrap;
+      padding: 10px;
+      border-radius: 5px;
+      background: white;
+      border: 5px solid #c7abc4;
+      margin-bottom: 40px;
+      margin-top: 20px;
+      box-shadow: 1px 1px 0px #8c778a,
+                  2px 2px 0px #8c778a,
+                  3px 3px 0px #8c778a,
+                  4px 4px 0px #8c778a,
+                  5px 5px 0px #8c778a,
+                  6px 6px 0px #8c778a;
+      font-family:sans-serif;
+      font-style: oblique;
+      text-align: justify;
+      
+    }
+/* Story Page End */
