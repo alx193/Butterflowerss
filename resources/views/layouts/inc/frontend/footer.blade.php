@@ -36,7 +36,7 @@
                                 </div>
                                 <div class="mb-3">
                                     <a href="https://wa.me/40721332458" class="text-black">
-                                        <i class="fa fa-phone-square"></i><p>Pentru Comenzi : 0721 332 458</p>
+                                        <i class="fa fa-phone-square"></i><p>Whatsapp : 0721 332 458</p>
                                     </a>
                                 </div>
                                 {{-- <div class="mb-3">
