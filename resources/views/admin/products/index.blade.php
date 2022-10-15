@@ -43,7 +43,7 @@
                                     <td>{{ $product->name }}</td>
                                     <td>{{ $product->selling_price }}</td>
                                     <td>{{ $product->quantity }}</td>
-                                    <td>{{ $product->status == '1' ? 'NOW' : 'BWCHI' }}</td>
+                                    <td>{{ $product->status == '1' ? 'NOW' : 'VECHI' }}</td>
                                     <td>{{ $product->trending == '1' ? 'POPULAR' : 'NU E POPULAR' }}</td>
                                     <td>
                                         <a href="{{ url('admin/products/'.$product->id.'/edit') }}" class="btn btn-sm  btn-success">Edit</a>
