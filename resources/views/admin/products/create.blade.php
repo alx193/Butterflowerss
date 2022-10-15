@@ -53,11 +53,11 @@
                                             </div>
                                             <div class="mb3">
                                                 <label>Product Name</label>
-                                                <input type="text" name="name" class="form-control"></input>
+                                                <input type="text" name="name" class="form-control">
                                             </div>
                                             <div class="mb3">
                                                 <label>Product Slug</label>
-                                                <input type="text" name="slug" class="form-control"></input>
+                                                <input type="text" name="slug" class="form-control">
                                             </div>
                                             <div class="mb3">
                                                 <label>Small Description (500 Words)</label>
@@ -75,11 +75,11 @@
                                                 </div>
                                                 <div class="mb3">
                                                     <label>Meta Keyword</label>
-                                                    <input type="text" name="meta_keyword" class="form-control"></input>
+                                                    <input type="text" name="meta_keyword" class="form-control">
                                                 </div>
                                                 <div class="mb3">
                                                     <label>Meta Description</label>
-                                                    <input type="text" name="meta_description" class="form-control"></input>
+                                                    <input type="text" name="meta_description" class="form-control">
                                             </div>
                                         </div>
                                         <div class="tab-pane border p-4 fade" id="details-tab-pane" role="tabpanel" aria-labelledby="details-tab" tabindex="0">
@@ -118,7 +118,7 @@
                                                     </div>
                                                     <div class="mb-3">
                                                         <div class="mb3">
-                                                            <label>Status</label>
+                                                            <label>Status (Produs nou)</label>
                                                             <input type="checkbox" name="status" style="width: 50px; height: 50px"></textarea>
                                                         </div>
                                                     </div>
@@ -128,7 +128,7 @@
                                         <div class="tab-pane border p-4 fade" id="image-tab-pane" role="tabpanel" aria-labelledby="image-tab" tabindex="0">  
                                             <div class="mb-3">
                                                     <label>Upload Product Image</label>  
-                                                    <input type="file" name="image[]" multiple class="form-control"></input>  
+                                                    <input type="file" name="image[]" multiple class="form-control"> 
                                             </div>
                                         </div>
                                     </div>

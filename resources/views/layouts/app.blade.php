@@ -29,6 +29,11 @@
 
     <!-- Styles -->
     <link href="{{ asset('assets/css/bootstrap.min.css') }}" rel="stylesheet">
+
+    {{-- Owl Carousel --}}
+    <link href="{{ asset('assets/css/owl.carousel.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/css/owl.theme.default.min.css') }}" rel="stylesheet">
+
     <link href="{{ asset('assets/css/custom.min.css') }}" rel="stylesheet"> 
 
 
@@ -64,6 +69,9 @@
     <script src="{{ asset('assets/js/jquery-3.6.0.min.js') }}"></script>
     <script src="{{ asset('assets/js/bootstrap.bundle.min.js') }}"></script>
     <script src="{{ asset('assets/exzoom/jquery.exzoom.js') }}"></script>
+     
+    <script src="{{ asset('assets/js/owl.carousel.min.js') }}"></script>
+    @yield('script')
 
     @yield('scripts')
 

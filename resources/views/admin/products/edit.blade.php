@@ -48,7 +48,7 @@
                                     <div class="tab-content" id="myTabContent">
                                         <div class="tab-pane border p-4 fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
                                             <div class="mb3">
-                                                <label>Category</label>
+                                                <label>Select Category</label>
                                                 <select name="category_id" class="form-control">
                                                     @foreach($categories as $category)
                                                     <option value="{{ $category->id }}" {{ $category->id == $product->category_id ? 'selected':'' }}>
@@ -59,7 +59,8 @@
                                             </div>
                                             <div class="mb3">
                                                 <label>Product Name</label>
-                                                <input type="text" name="name" value="{{ $product->name }}" class="form-control">                                            </div>
+                                                <input type="text" name="name" value="{{ $product->name }}" class="form-control">                                            
+                                            </div>
                                             <div class="mb3">
                                                 <label>Product Slug</label>
                                                 <input type="text" name="slug" value="{{ $product->slug }}" class="form-control">
@@ -122,7 +123,7 @@
                                                     </div>
                                                     <div class="mb-3">
                                                         <div class="mb3">
-                                                            <label>Status</label>
+                                                            <label>Status (Produs nou)</label>
                                                             <input type="checkbox" name="status" {{ $product->status == '1' ? 'checked':'' }}  style="width: 50px; height: 50px"></textarea>
                                                         </div>
                                                     </div>

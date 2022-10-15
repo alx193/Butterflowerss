@@ -5,8 +5,8 @@
                 <div class="col-md-12">
 
                 <div class="col-md-3">
-                    <div class="card">
-                                <div class="card-header" ><h4>Price</h4></div>
+                    <div class="container">
+                                <div class="card-header" ><h4>Pret</h4></div>
                                     <div class="card-body">
                                         <label class="d-block">
                                             <input type="radio" name="priceSort" wire:model="priceInput" value="high-to-low" />Descrescator

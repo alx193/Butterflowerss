@@ -59,6 +59,9 @@ class ProductFormRequest extends FormRequest
             'trending' => [
                 'nullable',
             ],
+            'new_product' => [
+                'nullable',
+            ],
             'status' => [
                 'nullable',
             ],
