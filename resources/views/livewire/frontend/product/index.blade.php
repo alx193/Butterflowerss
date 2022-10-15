@@ -1,9 +1,9 @@
 <div class="col-12">
-    <div class="col">
+    <div class="row">
         
             
-                <div class="col-md-12">
-
+            
+{{-- 
                 <div class="col-md-3">
                     <div class="container">
                                 <div class="card-header" ><h4>Pret</h4></div>
@@ -17,7 +17,7 @@
                                     </div>
                                 </div>
                     </div>
-                </div>
+                </div> --}}
                         <div class="row">
                                 @forelse ($products as $productItem)
                                     <div class="col-md-4">
@@ -54,7 +54,7 @@
                                     </div>
                                 @endforelse
                         </div>
-                </div>
+               
     </div>         
     
 </div>
