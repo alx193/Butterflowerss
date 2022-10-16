@@ -71,7 +71,7 @@
                                             </div>
                                             <div class="mb3">
                                                 <label>Description</label>
-                                                <textarea name="description" class="form-control" rows="4">"{{ $product->description }}</textarea>
+                                                <textarea name="description" class="form-control" rows="4">{{ $product->description }}</textarea>
                                             </div>
                                         </div>
                                         <div class="tab-pane border p-4 fade" id="seotag-pane" role="tabpanel" aria-labelledby="seotag" tabindex="0">
@@ -81,11 +81,11 @@
                                                 </div>
                                                 <div class="mb3">
                                                     <label>Meta Keyword</label>
-                                                    <input type="text" name="meta_keyword" value="{{ $product->meta_keyword }}" class="form-control rows="4"></input>
+                                                    <input type="text" name="meta_keyword" value="{{ $product->meta_keyword }}" class="form-control">
                                                 </div>
                                                 <div class="mb3">
                                                     <label>Meta Description</label>
-                                                    <input type="text" name="meta_description" value="{{ $product->description }}" class="form-control"></input>
+                                                    <input type="text" name="meta_description" value="{{ $product->description }}" class="form-control">
                                             </div>
                                         </div>
                                         <div class="tab-pane border p-4 fade" id="details-tab-pane" role="tabpanel" aria-labelledby="details-tab" tabindex="0">
@@ -94,7 +94,7 @@
                                                     <div class="mb-3">
                                                         <div class="mb3">
                                                             <label>Original Price</label>
-                                                            <input type="text" name="original_price" value="{{ $product->original_price }}" class="form-control" rows="4"></input>
+                                                            <input type="text" name="original_price" value="{{ $product->original_price }}" class="form-control" rows="4">
                                                         </div>
                                                     </div>
                                                 </div>

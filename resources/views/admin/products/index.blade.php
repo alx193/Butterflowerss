@@ -24,8 +24,8 @@
                                     <th>Product</th>
                                     <th>Price</th>
                                     <th>Quantity</th>
-                                    <th>Status</th>
-                                    <th>Trending</th>
+                                    <th>Now</th>
+                                    <th>Popular</th>
                                     <th>Action</th>
                                 </tr>
                             </thead>
@@ -43,8 +43,8 @@
                                     <td>{{ $product->name }}</td>
                                     <td>{{ $product->selling_price }}</td>
                                     <td>{{ $product->quantity }}</td>
-                                    <td>{{ $product->status == '1' ? 'NOW' : 'VECHI' }}</td>
-                                    <td>{{ $product->trending == '1' ? 'POPULAR' : 'NU E POPULAR' }}</td>
+                                    <td>{{ $product->new_product == '1' ? 'NOU' : '' }}</td>
+                                    <td>{{ $product->trending == '1' ? 'POPULAR' : '' }}</td>
                                     <td>
                                         <a href="{{ url('admin/products/'.$product->id.'/edit') }}" class="btn btn-sm  btn-success">Edit</a>
                                         <a href="{{ url('admin/products/'.$product->id.'/delete') }}" onclick="return confirm('Are you sure, you want to delete this data?')" class="btn btn-sm  btn-danger">

@@ -21,11 +21,11 @@
                                         <div class="col-md-4">
                                             <div class="product-card">
                                                 <div class="product-card-img">
-                                                    {{-- <label>@if($productItem->quantity > 0)</label>
-                                                    <label class="stock bg-success">In Stock</label>
+                                                   @if($productItem->new_product > 0)
+                                                    <label class="stock bg-success">Nou</label>
                                                     @else
-                                                    <label class="stock bg-danger">Out Of Stock</label>
-                                                    @endif --}}
+                                                   
+                                                    @endif
                                                     @if ($productItem->productImages->count() > 0)
                                                     <a href="{{ url('collections/'.$productItem->category->slug.'/'.$productItem->slug) }}">
                                                     <img src="{{ asset($productItem->productImages[0]->image) }}" alt="{{ $productItem->name }}">
@@ -47,7 +47,7 @@
                                     @empty
                                         <div class="col-md-12">
                                             <div class="p-2">
-                                                <h4>No Products Available for {{ $category->name }}</h4>
+                                                <h4>Nu sunt produse pentru categoria {{ $category->name }}</h4>
                                             </div>
                                         </div>
                                     @endforelse
