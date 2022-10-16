@@ -55,6 +55,7 @@ class ProductController extends Controller
             'meta_title'=> $validatedData['meta_title'],
             'meta_keyword'=> $validatedData['meta_keyword'],
             'meta_description'=> $validatedData['meta_description'],
+            'new_product'=> $request->new_product == true ? '1':'0'
         ]);
 
         if($request->hasFile('image')){
@@ -112,7 +113,8 @@ class ProductController extends Controller
                 'status'=> $request->status == true ? '1':'0',
                 'meta_title'=> $validatedData['meta_title'],
                 'meta_keyword'=> $validatedData['meta_keyword'],
-                'meta_description'=> $validatedData['meta_description']
+                'meta_description'=> $validatedData['meta_description'],
+                'new_product'=> $request->new_product == true ? '1':'0'
             ]);
 
             if($request->hasFile('image')){

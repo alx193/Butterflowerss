@@ -127,6 +127,12 @@
                                                             <input type="checkbox" name="status" {{ $product->status == '1' ? 'checked':'' }}  style="width: 50px; height: 50px"></textarea>
                                                         </div>
                                                     </div>
+                                                    <div class="mb-3">
+                                                        <div class="mb3">
+                                                            <label>Produs Nou</label>
+                                                            <input type="checkbox" name="new_product" {{ $product->new_product == '1' ? 'checked':'' }}  style="width: 50px; height: 50px"></textarea>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>

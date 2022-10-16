@@ -25,7 +25,8 @@ class Product extends Model
         'status',
         'meta_title',
         'meta_keyword',
-        'meta_description'
+        'meta_description',
+        'new_product'
     ];
 
     public function category() {

@@ -119,7 +119,7 @@
                                                     <div class="mb-3">
                                                         <div class="mb3">
                                                             <label>Status (Produs nou)</label>
-                                                            <input type="checkbox" name="status" style="width: 50px; height: 50px"></textarea>
+                                                            <input type="checkbox" name="new_product" style="width: 50px; height: 50px"></textarea>
                                                         </div>
                                                     </div>
                                                 </div>

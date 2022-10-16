@@ -5,7 +5,7 @@
                         <i class="fa fa-bars"></i>
                     </label>
                     <a class="logo" href="/" title="Floraria ButterFlowerss">
-                        <img src="{{ url('assets/images/rotund1.png') }}" class="img-responsive">
+                        <img src="{{ url('assets/images/rotund2.png') }}" class="img-responsive">
                     </a>
 
                     <ul>

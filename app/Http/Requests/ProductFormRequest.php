@@ -59,9 +59,6 @@ class ProductFormRequest extends FormRequest
             'trending' => [
                 'nullable',
             ],
-            'new_product' => [
-                'nullable',
-            ],
             'status' => [
                 'nullable',
             ],
@@ -77,10 +74,11 @@ class ProductFormRequest extends FormRequest
                 'required',
                 'string'
             ],
+            'new_product' => [
+                'nullable',
+            ],
             'image' => [
-              'nullable',
-              //'image|mimes:jpeg,png,jpg'  
-                
+              'nullable', 
             ],
         ];
     }
