@@ -8,8 +8,8 @@
                             {{-- <p>
                                 Florile sunt cuvintele iubirii si respectului!
                             </p> --}}
-                            <div class="mb-2"><a href="https://ro-ro.facebook.com/people/Floraria-Butterflowers/100064567820874/"><i class="fa fa-facebook"></i><p>Facebook</p></a></div>
-                            <div class="mb-2"><a href="https://instagram.com/florariabutterflowerss?igshid=YmMyMTA2M2Y="><i class="fa fa-instagram"></i><p>Instagram</p></a></div>
+                            <div class="mb-2"><a href="https://ro-ro.facebook.com/people/Floraria-Butterflowers/100064567820874/"><i class="fa fa-facebook"></i><p>Floraria Butterflowerss</p></a></div>
+                            <div class="mb-2"><a href="https://instagram.com/florariabutterflowerss?igshid=YmMyMTA2M2Y="><i class="fa fa-instagram"></i><p>Floraria Butterflowerss</p></a></div>
                         </div>
                     <div class="col-md-3">
                         <h4 class="footer-heading">Navigare rapida</h4>
@@ -23,8 +23,8 @@
                         <div class="footer-underline"></div>
                         <div class="mb-2"><a href="{{ url('collections/buchete-florale') }}" class="text-black">Buchete Florale</a></div>
                         <div class="mb-2"><a href="{{ url('/collections/aranjamente-florale') }}" class="text-black">Aranjamente Florale</a></div>
-                        <div class="mb-2"><a href="" class="text-black">New Arrivals Products</a></div>
-                        <div class="mb-2"><a href="" class="text-black">Featured Products</a></div>
+                        <div class="mb-2"><a href="{{ url('/collections/coroane-funerare') }}" class="text-black">Coroane Funerare</a></div>
+                        {{-- <div class="mb-2"><a href="" class="text-black">Featured Products</a></div> --}}
                     </div>
                     <div class="col-md-3">
                         <h4 class="footer-heading">Contact</h4>
