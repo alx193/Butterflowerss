@@ -70,11 +70,13 @@
                             <div class="col-md-12 mt-5">
                                 <div class="card1">
                                     <div class="card-header bg-white">
-                                            <h4>Optiuni Personalizare</h4>
+                                            <h4>Descriere</h4>
+                                            {{-- <h4>Optiuni Personalizare</h4> --}}
                                     </div>
                                           <div class="card-body">
                                              <p>
-                                                {{ $product->small_description }}
+                                                {{-- {{ $product->small_description }} --}}
+                                                {{ $product->description }}
                                              </p>
                                           </div>
                                 </div>
@@ -83,7 +85,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
+            {{-- <div class="row">
                 <div class="col-md-12 mt-5">
                     <div class="card1">
                         <div class="card-header bg-white">
@@ -96,7 +98,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> --}}
         </div>
     </div>
     {{-- @push('scripts')

@@ -17,6 +17,7 @@
                         <div class="mb-2"><a href="{{ url('/') }}" class="text-black">Home</a></div>
                         <div class="mb-2"><a href="{{ url('/frontend/infopages/story') }}" class="text-black">Povestea Noastra</a></div>
                         <div class="mb-2"><a href="{{ url('/frontend/infopages/contact') }}" class="text-black">Program</a></div>
+                        
                     </div>
                     <div class="col-md-3">
                         <h4 class="footer-heading">Catalog Produse</h4>
@@ -47,6 +48,7 @@
                             </div>
                         </div>
                 </div>
+                <h5 class="seo-footer">Floraria Butterflowers - Florarie Jiului</h5>
             </div>
         </div>
         <div class="copyright-area">

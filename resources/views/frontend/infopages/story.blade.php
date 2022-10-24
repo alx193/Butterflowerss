@@ -15,6 +15,7 @@
     si iubire pentru flori oferind un catalog larg de aranjamente si buchete deosebite, fiecare dintre acestea fiind alcatuite din flori si plante atent alese pentru 
     a oferi o experienta vizuala unica si o senzatie olfactiva fabuloasa.
     </p>
+    <h2 class="seo-story">Floraria Butterflowerss - Florarie Jiului</h2>
 </div>
 
 @endsection
