@@ -1,11 +1,12 @@
 /* Category Start */
 .category-card{
-    border: 5px solid #c7abc4;
+    border: 5px  #262626;
     border-radius: 5px;
     margin-bottom: 24px;
     background-color: #fff;
-    box-shadow: 0px 0px 10px 0px #262626;
+    box-shadow: 0px 0px 5px 0px #C7abc4;
     transition: 0.3s;
+    text-align: center;
 }
 
 .category-card a{
@@ -76,10 +77,10 @@
 /* Product Card */
 .product-card{
     background-color: #fff;
-    border: 5px solid #c7abc4;
+    border: 5px  #808080;
     border-radius: 5px;
     margin-bottom: 24px;
-    box-shadow: 0px 0px 10px 0px #262626;
+    box-shadow: 0px 0px 10px 0px #C7abc4;
     transition: 0.3s;
 }
 .product-card a{
@@ -215,7 +216,7 @@
 }
 
 .card1 {
-  border: 5px bold #c7abc4;
+  border: 2px  #262626;
   border-radius: 5px;
   /* box-shadow: 1px 1px 0px #8c778a,
   2px 2px 0px #8c778a,
@@ -223,7 +224,7 @@
   4px 4px 0px #8c778a,
   5px 5px 0px #8c778a,
   6px 6px 0px #8c778a; */
-  box-shadow: 0px 0px 10px 0px #262626;
+  box-shadow: 0px 0px 10px 0px #C7abc4;
   transition: 0.3s;
   margin-bottom: 10px;
 }
@@ -495,6 +496,7 @@
           /* border-bottom: 0.5px solid #262626;
           border-radius: 5px; */
           /* box-shadow: 0px 0px 10px 0px #262626; */
+
       }
       .copyright-areaa p {
           margin-top: 5px;
@@ -607,23 +609,25 @@
   width: auto;
   background-color: white;
   margin-bottom: 20px;
-  box-shadow: 0px 0px 10px 0px #262626;
+  box-shadow: 0px 0px 5px 0px #c7abc4;
   border:#000;
 }
 
 .card-body{
   /* border: 5px solid #c7abc4; */
-  border-bottom: 5px solid #c7abc4;
-  border-left: 5px solid #c7abc4;
-  border-right: 5px solid #c7abc4;
+  border-bottom: 2px  #262626;
+  border-left: 2px  #262626;
+  border-right: 2px  #262626;
   transition: 0.3s;
+  
 }
 
 .card-header{
-  border-top: 5px solid #c7abc4;
-  border-left: 5px solid #c7abc4;
-  border-right: 5px solid #c7abc4;  
+  border-top: 2px  #262626;
+  border-left: 2px  #262626;
+  border-right: 2px  #262626;  
   transition: 0.3s;
+  border-radius: 5px;
 }
 
 .seo-story{

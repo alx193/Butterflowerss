@@ -5,7 +5,7 @@
 @section('content')
 
                     
-<div class="py-5 py-md-5">
+<div class="py-5 py-md-5 bg-light">
         <div class="container">
                     
             <div class="row">

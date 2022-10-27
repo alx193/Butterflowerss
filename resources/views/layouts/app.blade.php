@@ -46,11 +46,11 @@
 
         @include('layouts.inc.frontend.navbar')
         <main>
-                            <div class="copyright-areaa">
+                            <div class="copyright-areaa bg-light">
                                 <div class="container">
                                     <div class="row">
                                         <div class="col-md-12">
-                                            <p class="">Florile sunt cuvintele iubirii si respectului!</p>
+                                            <p >Florile sunt cuvintele iubirii si respectului!</p>
                                             <p>
                                                 <a href="tel:+40721332458">Comanda acum : 0721 332 458</a>
                                             </p>

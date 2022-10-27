@@ -7,7 +7,7 @@
 
 </head>
 <body>
-    <div class="py-3 py-md-4">
+    <div class="py-3 py-md-4 bg-light">
         <div class="container">
             <div class="row">
                 <div class="col-md-3 mt-3">
@@ -73,7 +73,7 @@
                                             <h4>Descriere</h4>
                                             {{-- <h4>Optiuni Personalizare</h4> --}}
                                     </div>
-                                          <div class="card-body">
+                                          <div class="card-body bg-white">
                                              <p>
                                                 {{-- {{ $product->small_description }} --}}
                                                 {{ $product->description }}
