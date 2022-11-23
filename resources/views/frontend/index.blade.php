@@ -113,7 +113,7 @@
 {{-- Trending products owl carousel start --}}
 <div class="py-1 bg-light">
     <div class="container">
-        <div class="row justify-content-cnter">
+        <div class="row justify-content-center">
             <div class="col-md-8 text-left">
             @if($trendingProducts->count() > 0)
                 <h4>Produse populare</h4>

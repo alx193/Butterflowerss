@@ -25,6 +25,7 @@
                         <div class="mb-2"><a href="{{ url('collections/buchete-florale') }}" class="text-black">Buchete Florale</a></div>
                         <div class="mb-2"><a href="{{ url('/collections/aranjamente-florale') }}" class="text-black">Aranjamente Florale</a></div>
                         <div class="mb-2"><a href="{{ url('/collections/coroane-funerare') }}" class="text-black">Coroane Funerare</a></div>
+                        
                         {{-- <div class="mb-2"><a href="" class="text-black">Featured Products</a></div> --}}
                     </div>
                     <div class="col-md-3">
@@ -52,18 +53,18 @@
             </div>
         </div>
         <div class="copyright-area">
-            <div class="container">
+            <div class="container2">
                 <div class="row">
-                    <div class="col-md-12">
-                        <p class=""> &copy; 2022 - Floraria Butterflowerss</p>
+                    <div class="col-md-4">
+                    <p class="copyr"> &copy; 2022 - Floraria Butterflowerss</p>
                     </div>
-                    {{-- <div class="col-md-6">
-                        <div class="social-media">
-                            Social Media :
-                            <a href="https://ro-ro.facebook.com/people/Floraria-Butterflowers/100064567820874/"><i class="fa fa-facebook"></i></a>
-                            <a href="https://instagram.com/florariabutterflowerss?igshid=YmMyMTA2M2Y="><i class="fa fa-instagram"></i></a>
-                        </div>
-                    </div> --}}
+                    <div class="col-md-4">
+                        <a href="https://www.anpc.ro/"><img alt="anpc" src="https://www.maxhome.ro/ro.png"></a>
+                    </div>    
+                    
+                    <div class="col-md-4">
+                        <a href="https://ec.europa.eu/consumers/odr/main/index.cfm?event=main.home.chooseLanguage"><img alt="anpc" src="https://www.maxhome.ro/eu.png"></a>
+                    </div>   
                 </div>
             </div>
         </div>

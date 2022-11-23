@@ -1,5 +1,5 @@
 
-        <nav clas="top-sticky">
+        <nav class="top-sticky">
                     <input type="checkbox" id="check">
                     <label for="check" class="checkbtn">
                         <i class="fa fa-bars"></i>
